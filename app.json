@@ -19,12 +19,19 @@
     },
     "android": {
       "adaptiveIcon": {
+        "package": "com.nit.test",
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vedanttatte.myreactnativeapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e1a19323-b386-4f49-a3b9-c2531e592e55"
+      }
     }
   }
 }
